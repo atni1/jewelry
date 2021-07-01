@@ -3,3 +3,9 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+@mixin main__h2 {
+    font-family: Serif;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+}

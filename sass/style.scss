@@ -547,3 +547,85 @@ header {
     // position: relative;
     margin-bottom: 5.5%;
 }
+.product__card {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    .card {
+        padding: 35px;
+        border: 1px solid #D6D6D6;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+
+        .card__img {
+            display: flex;
+            margin-bottom: 25px;
+        }
+        .card__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+                @include filter__text;
+                margin-bottom: 10px;
+            }
+            a {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 140%;
+                text-align: center;
+                color: #333333;
+                margin-bottom: 15px;
+            }
+            button {
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background: #333333;
+                border: 1px solid #FFFFFF;
+                padding: 10px 20px;
+            }
+            button:hover {
+                border: 1px solid #141414;
+                color: #141414;
+                background: #999999;
+            }
+        }
+    }
+    .card:hover {
+        transform: scale(1.02);
+        border: 1px solid #777777;
+        box-shadow: 8px 8px 14px 4px rgba(34, 60, 80, 0.23);
+    }
+}
+.more__product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13.6%;
+    a {
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #333333;        
+        border: 1px solid #FFFFFF;
+        padding: 15px 35px;
+    }
+    a:hover {
+        border: 1px solid #141414;
+        color: #141414;
+        background: #ffffff;
+        box-shadow: 0 0 14px 4px rgba(15, 14, 14, 0.349);  
+    }
+}
+

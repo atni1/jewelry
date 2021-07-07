@@ -48,259 +48,290 @@
         </section>
     </header>
 
-    <main class="container">
-        <section class="filter">
-            <details> 
-                <summary class="filter__items">
-                    <span>Бренд</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <form class="form__filter" action="#">           
-                    <div class="checkbox__wrap">
-                        <label class="custom-checkbox">
-                            <input type="checkbox">
-                            <span>Versacci</span>  
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox">
-                            <span>Trebbo</span>
-                        </label>                   
-                        <label class="custom-checkbox">
-                            <!-- disabled="disabled" -->
-                            <input type="checkbox">
-                            <span>Jewelry for you family</span>
-                        </label>                   
-                        <label class="custom-checkbox">
-                            <input type="checkbox">
-                            <span>VIP ghoret</span>
-                        </label>                   
-                        <label class="custom-checkbox">
-                            <input type="checkbox">
-                            <span>Dolce & Gabanna</span>
-                        </label>
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+    <main>
+        <div class="container">
+            <section class="filter">
+                <details> 
+                    <summary class="filter__items">
+                        <span>Бренд</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <form class="form__filter" action="#">           
+                        <div class="checkbox__wrap">
+                            <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span>Versacci</span>  
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span>Trebbo</span>
+                            </label>                   
+                            <label class="custom-checkbox">
+                                <!-- disabled="disabled" -->
+                                <input type="checkbox">
+                                <span>Jewelry for you family</span>
+                            </label>                   
+                            <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span>VIP ghoret</span>
+                            </label>                   
+                            <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span>Dolce & Gabanna</span>
+                            </label>
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form> 
+                </details>
+                <details > 
+                    <summary class="filter__items">
+                        <span>Цена</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <form class="form__filter" action="#">           
+                        <div class="range__wrap">
+                            <span>От</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="10">
+                                тыс. руб.
+                            </label> 
+                            <span>До</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="1000">
+                                тыс. руб.
+                            </label>  
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form> 
+                </details>
+                <details > 
+                    <summary class="filter__items">
+                        <span>Для кого</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <!-- <form class="form__filter" action="#">           
+                        <div class="range__wrap">
+                            <span>От</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="10">
+                                тыс. руб.
+                            </label> 
+                            <span>До</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="1000">
+                                тыс. руб.
+                            </label>  
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form>  -->
+                </details>
+                <details > 
+                    <summary class="filter__items">
+                        <span>Коллекция</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <!-- <form class="form__filter" action="#">           
+                        <div class="range__wrap">
+                            <span>От</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="10">
+                                тыс. руб.
+                            </label> 
+                            <span>До</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="1000">
+                                тыс. руб.
+                            </label>  
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form>  -->
+                </details>
+                <details > 
+                    <summary class="filter__items">
+                        <span>Сезон</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <!-- <form class="form__filter" action="#">           
+                        <div class="range__wrap">
+                            <span>От</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="10">
+                                тыс. руб.
+                            </label> 
+                            <span>До</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="1000">
+                                тыс. руб.
+                            </label>  
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form>  -->
+                </details>
+                <details > 
+                    <summary class="filter__items">
+                        <span>Событие</span>  
+                        <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
+                            </svg>
+                    </summary> 
+                    <!-- <form class="form__filter" action="#">           
+                        <div class="range__wrap">
+                            <span>От</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="10">
+                                тыс. руб.
+                            </label> 
+                            <span>До</span> 
+                            <label class="number__sup">
+                                <input type="number" min="10" max="1000" placeholder="1000">
+                                тыс. руб.
+                            </label>  
+                        </div>                 
+                        <div class="filter__button">
+                            <button class="btn__reset" type="reset">очистить</button>
+                            <button class="btn__submit" type="submit">показать</button>
+                        </div>
+                    </form>  -->
+                </details>
+            </section>
+            <section class="product__card">
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
                     </div>
-                </form> 
-            </details>
-            <details > 
-                <summary class="filter__items">
-                    <span>Цена</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <form class="form__filter" action="#">           
-                    <div class="range__wrap">
-                        <span>От</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="10">
-                            тыс. руб.
-                        </label> 
-                        <span>До</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="1000">
-                            тыс. руб.
-                        </label>  
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
                     </div>
-                </form> 
-            </details>
-            <details > 
-                <summary class="filter__items">
-                    <span>Для кого</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <!-- <form class="form__filter" action="#">           
-                    <div class="range__wrap">
-                        <span>От</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="10">
-                            тыс. руб.
-                        </label> 
-                        <span>До</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="1000">
-                            тыс. руб.
-                        </label>  
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
                     </div>
-                </form>  -->
-            </details>
-            <details > 
-                <summary class="filter__items">
-                    <span>Коллекция</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <!-- <form class="form__filter" action="#">           
-                    <div class="range__wrap">
-                        <span>От</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="10">
-                            тыс. руб.
-                        </label> 
-                        <span>До</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="1000">
-                            тыс. руб.
-                        </label>  
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
                     </div>
-                </form>  -->
-            </details>
-            <details > 
-                <summary class="filter__items">
-                    <span>Сезон</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <!-- <form class="form__filter" action="#">           
-                    <div class="range__wrap">
-                        <span>От</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="10">
-                            тыс. руб.
-                        </label> 
-                        <span>До</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="1000">
-                            тыс. руб.
-                        </label>  
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
                     </div>
-                </form>  -->
-            </details>
-            <details > 
-                <summary class="filter__items">
-                    <span>Событие</span>  
-                    <svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 8L0.803848 0.5L11.1962 0.499999L6 8Z" fill="#333333"/>
-                        </svg>
-                </summary> 
-                <!-- <form class="form__filter" action="#">           
-                    <div class="range__wrap">
-                        <span>От</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="10">
-                            тыс. руб.
-                        </label> 
-                        <span>До</span> 
-                        <label class="number__sup">
-                            <input type="number" min="10" max="1000" placeholder="1000">
-                            тыс. руб.
-                        </label>  
-                    </div>                 
-                    <div class="filter__button">
-                        <button class="btn__reset" type="reset">очистить</button>
-                        <button class="btn__submit" type="submit">показать</button>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
                     </div>
-                </form>  -->
-            </details>
-        </section>
-        <section class="product__card">
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
+                    </div>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
+                    </div>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__img">
+                        <img src="/img/card.jpg" alt="jewelry">
+                    </div>
+                    <div class="card__text">
+                        <span>Подвеска</span>
+                        <!-- на страницу продукта -->
+                        <a href="#">Dolce & Gabanna</a>
+                        <button>
+                            175 000 ₽
+                        </button>
+                    </div>
+                </article>
+            </section>
+            <section class="more__product">
+                <a href="#">покажите еще</a>
+            </section>
+            <section class="seo__wrap">
+                <article class="seo__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.
+                    Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.
+                    </p>            
                     <button>
-                        175 000 ₽
+                        читать полностью
                     </button>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
-                    <button>
-                        175 000 ₽
-                    </button>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
-                    <button>
-                        175 000 ₽
-                    </button>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
-                    <button>
-                        175 000 ₽
-                    </button>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
-                    <button>
-                        175 000 ₽
-                    </button>
-                </div>
-            </article>
-            <article class="card">
-                <div class="card__img">
-                    <img src="/img/card.jpg" alt="jewelry">
-                </div>
-                <div class="card__text">
-                    <span>Подвеска</span>
-                    <!-- на страницу продукта -->
-                    <a href="#">Dolce & Gabanna</a>
-                    <button>
-                        175 000 ₽
-                    </button>
-                </div>
-            </article>
-        </section>
-        <section class="more__product">
-            <a href="#">покажите еще</a>
-        </section>
+                </article>
+                <article class="icon__list">
+                    <div class="icon__items">
+                        <img src="/img/delivery.svg" alt="delivery">
+                        <span>Бесплатная доставка</span>
+                    </div>
+                    <div class="icon__items">
+                        <img src="/img/list.svg" alt="delivery">
+                        <span>Индивидуальный дизайн</span>
+                    </div>
+                    <div class="icon__items">
+                        <img src="/img/ribbon-design.svg" alt="delivery">
+                        <span>Бесплатная примерка</span>
+                    </div>
+                    <div class="icon__items">
+                        <img src="/img/jewelry.svg" alt="delivery">
+                        <span>Личный подход</span>
+                    </div>
+                </article>
+            </section>
+        </div>
+       
     </main>
 
     <footer>

@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
+    padding-bottom: 25px;
     a {
         @include header__font;
     }
@@ -540,6 +541,9 @@ header {
     }
 }
 
+body {
+    background: #F9F9F9;
+}
 .filter {
     margin-top: 9%;
     display: flex;
@@ -628,4 +632,81 @@ header {
         box-shadow: 0 0 14px 4px rgba(15, 14, 14, 0.349);  
     }
 }
-
+.seo__wrap {
+    margin-bottom: 13.6%;
+    display: flex;
+    justify-content: space-evenly;
+    .seo__text {
+        max-width: 49%;
+        position: relative;
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 150%;
+            color: #333333;
+            overflow: hidden;
+            position: relative;
+            
+        }
+        p::after {
+            content: "";
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 50%;
+            background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%, #F9F9F9 82.29%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  82.29%);
+            pointer-events: none;
+        }
+        button {
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #333333;
+            padding-bottom: 5px;
+            background-color: #F9F9F9;
+            border: 1px dashed #333333;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        button:hover {
+            position: static;
+            border: none;
+            transform: scale(1.02);
+            padding-bottom: 6px;
+            color: #050505;
+        }
+    }
+    .icon__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 27%;  
+        .icon__items {
+            width: 38%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            right: 0;
+            word-wrap: break-word;
+            span {
+                padding-top: 15px;
+                
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                color: #000000;
+            }
+        }
+        .icon__items:nth-child(odd) {
+            margin-right: 60px;
+        }
+        .icon__items:first-child {
+            margin-bottom: 30px;
+        }
+    }
+}

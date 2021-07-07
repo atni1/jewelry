@@ -1,0 +1,36 @@
+@mixin header__font {
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+@mixin main__h2 {
+    font-family: Serif;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+}
+@mixin footer__h3 {
+    h3 {
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+    hr {
+        background-color: #333333;
+        margin-bottom: 30px;
+        box-shadow: none;
+    }
+}
+@mixin footer__text {
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+}
+@mixin filter__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    }

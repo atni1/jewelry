@@ -62,7 +62,7 @@ header {
     }
 }
 .intro {
-    background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(/img/bgc.jpg);
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(../img/bgc.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,33 +195,33 @@ header {
             }
         }
         .rings {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/rings.jpg); 
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/rings.jpg); 
             background-repeat: no-repeat;          
         }
         .errings {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/errings.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/errings.jpg);
             background-repeat: no-repeat; 
         }
         .pendants {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/pendants.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/pendants.jpg);
             background-repeat: no-repeat;
         }
         .cuffinks {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/cuffinks.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/cuffinks.jpg);
             background-repeat: no-repeat;
         }
         .bracelets {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/bracelets.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/bracelets.jpg);
             background-repeat: no-repeat;
         }
         .watches {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/watches.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/watches.jpg);
             background-repeat: no-repeat;
         }
     }
 }
 .salon {
-    background: url(/img/bg__salon.jpg);
+    background: url(../img/bg__salon.jpg);
     .salon__wrap {
         display: flex;
         flex-direction: column;
@@ -295,15 +295,15 @@ header {
             padding: 248px 0 35px;
         }
         .item__sup:first-child {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog1.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog1.jpg);
             background-repeat: no-repeat;
         }
         .item__sup:nth-child(2) {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog2.jpg);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog2.jpg);
             background-repeat: no-repeat;
         }
         .item__sup:last-child {
-            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog3.png);
+            background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog3.png);
             background-repeat: no-repeat;
         }
         .item__sup a {
@@ -363,7 +363,7 @@ header {
     }
 }
 .subscribe {
-    background: url(/img/bg__salon.jpg);
+    background: url(../img/bg__salon.jpg);
     .subscribe__wrap {
         display: flex;
         flex-direction: column;
@@ -388,7 +388,7 @@ header {
             ul {
                 display: flex;
                 flex-flow:column;
-                list-style: url(/img/subscribe__icon.svg);
+                list-style: url(../img/subscribe__icon.svg);
                 li {
                     font-size: 18px;
                     line-height: 140%;
@@ -489,13 +489,13 @@ header {
             content: "";
             width: 20px;
             height: 20px;
-            background: url(/img/phone.svg);
+            background: url(../img/phone.svg);
             padding-right: 20px;
             margin-right: 20px;
             background-repeat: no-repeat;
         } 
         li:last-child::before {
-            background: url(/img/emails.svg);
+            background: url(../img/emails.svg);
         }
     }
     .network {
@@ -865,7 +865,7 @@ footer {
                 left: 0;
                 height: 50%;
                 background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%, #F9F9F9 82.29%);
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  82.29%);
+                // background: linear-gradient(to bottom, rgba(255, 255, 255, 0),  82.29%);
                 pointer-events: none;
             }
             button {

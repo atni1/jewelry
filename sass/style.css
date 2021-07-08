@@ -135,7 +135,7 @@ details[open] > .filter__items svg {
 .form__filter .checkbox__wrap .custom-checkbox > input:checked + span::before {
   border-color: #ffffff;
   background-color: #333333;
-  background-image: url(/img/checked.svg);
+  background-image: url(../img/checked.svg);
 }
 
 .form__filter .checkbox__wrap .custom-checkbox > input:disabled + span::before {
@@ -338,8 +338,8 @@ header {
 }
 
 .intro {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.87)), to(rgba(51, 51, 51, 0.87))), url(/img/bgc.jpg);
-  background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(/img/bgc.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 51, 51, 0.87)), to(rgba(51, 51, 51, 0.87))), url(../img/bgc.png);
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(../img/bgc.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -535,43 +535,43 @@ header {
 }
 
 .categories .category .rings {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/rings.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/rings.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/rings.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/rings.jpg);
   background-repeat: no-repeat;
 }
 
 .categories .category .errings {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/errings.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/errings.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/errings.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/errings.jpg);
   background-repeat: no-repeat;
 }
 
 .categories .category .pendants {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/pendants.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/pendants.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/pendants.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/pendants.jpg);
   background-repeat: no-repeat;
 }
 
 .categories .category .cuffinks {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/cuffinks.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/cuffinks.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/cuffinks.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/cuffinks.jpg);
   background-repeat: no-repeat;
 }
 
 .categories .category .bracelets {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/bracelets.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/bracelets.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/bracelets.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/bracelets.jpg);
   background-repeat: no-repeat;
 }
 
 .categories .category .watches {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(/img/watches.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(/img/watches.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20.31%, rgba(180, 180, 180, 0)), to(#333333)), url(../img/watches.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%), url(../img/watches.jpg);
   background-repeat: no-repeat;
 }
 
 .salon {
-  background: url(/img/bg__salon.jpg);
+  background: url(../img/bg__salon.jpg);
 }
 
 .salon .salon__wrap {
@@ -683,20 +683,20 @@ header {
 }
 
 .blog__item .item__sup:first-child {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(/img/blog1.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog1.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(../img/blog1.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog1.jpg);
   background-repeat: no-repeat;
 }
 
 .blog__item .item__sup:nth-child(2) {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(/img/blog2.jpg);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog2.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(../img/blog2.jpg);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog2.jpg);
   background-repeat: no-repeat;
 }
 
 .blog__item .item__sup:last-child {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(/img/blog3.png);
-  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(/img/blog3.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 180, 180, 0)), to(#333333)), url(../img/blog3.png);
+  background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%), url(../img/blog3.png);
   background-repeat: no-repeat;
 }
 
@@ -777,7 +777,7 @@ header {
 }
 
 .subscribe {
-  background: url(/img/bg__salon.jpg);
+  background: url(../img/bg__salon.jpg);
 }
 
 .subscribe .subscribe__wrap {
@@ -832,7 +832,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  list-style: url(/img/subscribe__icon.svg);
+  list-style: url(../img/subscribe__icon.svg);
 }
 
 .subscribe .subscribe__wrap .subscribe__sup ul li {
@@ -1014,14 +1014,14 @@ header {
   content: "";
   width: 20px;
   height: 20px;
-  background: url(/img/phone.svg);
+  background: url(../img/phone.svg);
   padding-right: 20px;
   margin-right: 20px;
   background-repeat: no-repeat;
 }
 
 .footer .contacts li:last-child::before {
-  background: url(/img/emails.svg);
+  background: url(../img/emails.svg);
 }
 
 .footer .network {
@@ -1562,8 +1562,6 @@ footer {
   height: 50%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 249, 0)), color-stop(82.29%, #F9F9F9));
   background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%, #F9F9F9 82.29%);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(82.29%));
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), 82.29%);
   pointer-events: none;
 }
 

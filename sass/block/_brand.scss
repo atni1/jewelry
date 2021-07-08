@@ -85,7 +85,7 @@ details[open]>.filter__items svg {
         .custom-checkbox>input:checked+span::before {
             border-color: #ffffff;
             background-color: #333333;
-            background-image: url(/img/checked.svg);
+            background-image: url(../img/checked.svg);
         }
         .custom-checkbox>input:disabled+span::before {
             background-color: #e9ecefcc;

@@ -128,6 +128,7 @@ header {
     flex-direction: column;
     margin-top: 9%;
     margin-bottom: calc(11% - 30px);
+    position: relative;
     .meeting {
         font-size: 21px;
         line-height: 140%;
@@ -142,10 +143,11 @@ header {
     }
     .list {
         display: flex;
-        list-style-type: none;
+        // space-beetwen
         justify-content: space-between;
         margin-bottom: 5.8%;
-        &__link {
+        .link__sup {
+            position: relative;
             width: 15%;
             a {
                 font-weight: 500;
@@ -157,7 +159,7 @@ header {
                 color: #333333;
                 border: 1px solid #D6D6D6;
                 box-sizing: border-box;
-                background-color: #FFFFFF;
+                background-color: #F9F9F9;
                 padding: 17px 0;
                 display: flex;
                 align-items: center;
@@ -166,9 +168,23 @@ header {
             a:hover {
                 background: #333333;
                 color: #FFFFFF;
-            }
+            } 
         }
-    }
+        .link__sup::before {
+            content: "";
+            min-height: 100%;
+            width: 100%;
+            border: 1px solid #D6D6D6; 
+            left: 6px;
+            top: 6px;
+            display: block;
+            position: absolute;
+            z-index: -1;
+        }
+        .link__sup:hover::before {
+            display: none;
+        }
+    } 
     .category {
         display: flex;
         flex-wrap: wrap;
@@ -329,7 +345,7 @@ header {
         padding: 15px 35px;
     }
     .read__blog:hover {
-        background: #ffffff;
+        background: #F9F9F9;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         border: 1px solid #000000;
         color: #000000;
@@ -454,8 +470,8 @@ header {
             padding-bottom: 15px;
         }
         a:hover {
-            font-size: large;
-            text-shadow: #333333;
+            transform: scale(1.03);
+            text-shadow: #33333300;
         }
     }
     .payment {
@@ -473,14 +489,20 @@ header {
         width: 23%;
         @include footer__h3;
         a {
-            @include footer__text;
-            font-size: 15px;
-        }
+            color: #333333;
+        } 
+        h3:hover {
+            transform: scale(1.03);
+        }         
         li {
             list-style: none;
             font-size: 15px;
             line-height: 150%;
-            color: #333333; 
+            color: #333333;
+            a {
+                @include footer__text;
+                font-size: 15px;
+            } 
         }
         li:not(:last-child) {
             padding-bottom: 14px;
@@ -733,10 +755,16 @@ footer {
         span:hover {
             text-decoration-line: none;  
         }
+        
     }
     a:first-child {
         margin-left: 0;
     }
+    a:last-child {
+        span {
+            text-decoration-line: none;  
+        }
+    } 
 }
 .desc {
     display: flex;
@@ -992,5 +1020,54 @@ footer {
             border: 1px solid #777777;
             box-shadow: 8px 8px 14px 4px rgba(34, 60, 80, 0.23);
         }
+    }
+}
+
+.contact {
+    h3 {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .communication {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        h4 {
+            @include contacts__h4;
+        }
+        .main__office { 
+            @include contacts__li;
+            li:before {
+                background: url(../img/icons_location.svg);
+            }
+        }
+        .telefon {
+            @include contacts__li;
+            li:before {
+                background: url(../img/phone-filled.svg);
+            }
+        }
+        .email {
+            @include contacts__li;
+            li:before {
+                background: url(../img/emails.svg);
+            }  
+        }
+        .more__office {
+            @include contacts__li;
+            li:before {
+                background: url(../img/icons_location.svg);
+            } 
+        }
+    }
+    hr {
+        border: 1px solid #D6D6D6;
+        margin-bottom: 60px;
     }
 }
